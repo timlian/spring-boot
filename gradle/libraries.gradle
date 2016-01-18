@@ -1,0 +1,8 @@
+
+ext {
+       libs = [:]
+        libs.resteasyRs  =  'org.jboss.resteasy:resteasy-jaxrs:3.0.10.Final'
+        libs.resteasySpring = 'org.jboss.resteasy:resteasy-spring:3.0.10.Final'
+        libs.springBoot = 'org.springframework.boot:spring-boot-starter-web:1.2.2.RELEASE'
+        libs.resteasyJackson2 = 'org.jboss.resteasy:resteasy-jackson2-provider:3.0.10.Final'
+}
